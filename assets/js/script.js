@@ -96,12 +96,72 @@ let idadeString = `idade: ${idade - 2} anos`;
 console.log(idadeString);*/
 
 
-/*md01 aula13 */
+/*md01 aula13 
 
-let idade = 17;
+let idade = 20;
 
 if (idade >= 17) {
     console.log("Você é maior de idade!")
 } else {
     console.log("Você é menor de idade!")
+}*/
+
+
+/* md01 aula14 
+
+let idade = 20;
+
+if (idade === 20) {
+    idade = idade + 15;
+    console.log("Idade adicionada com sucesso!");
+    console.log(idade);
+}
+*/
+
+/* md01 aula 15 
+
+let idade = 90;
+
+if (idade >= 18) {
+    if (idade < 60) {
+        console.log("você é um adulto");
+    }
+}
+
+if (idade >= 18 && idade < 60) {
+    console.log("Você é um adulto.")
+}
+*/
+
+/* md01 aula16
+
+let idade = 60;
+
+if (idade < 18) {
+    console.log("Você é uma criança!")
+} else if (idade >= 18 && idade < 60) {
+    console.log("Você é um adulto!")
+} else if (idade >= 60) {
+    console.log("Você é um idoso!")
+}
+*/
+
+/* md01 aula 17*/
+
+let idade = 20 ;
+
+/*let adulto = idade > 18 && idade < 60;
+
+if (adulto) {
+    console.log("É adulto!")
+} else {
+    console.log("Não é adulto")
+}*/
+
+let verificacao = idade > 18;
+
+console.log(idade > 18)
+
+if (false) {
+    console.log("Entrou")
 }
