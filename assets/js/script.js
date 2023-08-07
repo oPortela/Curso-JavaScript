@@ -146,7 +146,7 @@ if (idade < 18) {
 }
 */
 
-/* md01 aula 17*/
+/* md01 aula 17
 
 let idade = 20 ;
 
@@ -156,7 +156,7 @@ if (adulto) {
     console.log("É adulto!")
 } else {
     console.log("Não é adulto")
-}*/
+}
 
 let verificacao = idade > 18;
 
@@ -165,3 +165,65 @@ console.log(idade > 18)
 if (false) {
     console.log("Entrou")
 }
+*/
+
+/*md01 aula19
+
+let isMember = true;
+
+let shipping = isMember ? 2 : 10;  //frete
+
+console.log(isMember ? 'Você é membro' : 'Você não é membro')
+console.log("Frete: " + shipping);
+
+let age = 20;
+
+let isAdult = ((age >= 18 && age < 60) ? 'Sim' : "Não");
+//  ? que deu certo (true)
+//  : que deu errado (false)
+console.log(isAdult);
+*/
+
+/* md01 aula 20
+
+let profession = "policial";
+
+console.log("Profissão: " + profession) 
+switch (profession) {
+    case 'fiscal' : 
+        console.log("Sua camisa será VERDE")
+    break;
+    case 'bombeiro' : 
+        console.log("Sua camisa será VERMELHA")
+    break;
+    case 'policial' :
+        console.log("Sua camisa será AZUL")
+    break;
+    default:
+        console.log("Sua camisa será PRETA")
+    break;
+}
+
+const profession1 = prompt("Qual a vaga aplicada?");
+let salaryOrError = "";
+
+switch (profession1.toLocaleLowerCase()) {
+  case "programador":
+    salaryOrError = "O salário é de 5 mil reais";
+    break;
+  case "designer":
+    salaryOrError = "O salário é de 4.5 mil reais";
+    break;
+  case "dba":
+    salaryOrError = "o salário é de 8 mil reais";
+    break;
+  case "qa":
+    salaryOrError = "o salário é de 3 mil reais";
+    break;
+  default:
+    salaryOrError = "Não oferecemos vagas para essa ocupação";
+    break;
+}
+
+alert(salaryOrError);
+*/
