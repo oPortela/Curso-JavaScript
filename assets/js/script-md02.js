@@ -134,10 +134,19 @@ console.log(`Count global: ${countTeste}`)
 */
 
 
+
+/* md02 aula 12 
+
 function addSquares(a, b) {
-    function square(x) {
-        return x * x;
-    }
+    //function square(x) {
+    //    return x * x;
+    //}
+
+    //const square  = (x) => {
+    //    return x * x;
+    //}
+
+    const square = (x) => x * x;
 
     let sqrA = square(a);
     let sqrB = square(b);
@@ -149,3 +158,71 @@ function addSquares(a, b) {
 }
 //console.log(square(2));
 console.log(addSquares(2, 3));
+*/
+
+
+/* md02 aula 13
+
+let colors = ['blue', 'rede', 'green'];
+console.log(colors[0]);
+
+
+let idades = [10, 20, 30];
+console.log(idades[2]);
+
+
+let lista = ['algo', 30, 'sanfona', true];
+console.log(lista);
+
+
+let nomes = ['Matheus', 'Marques', 'Portela'];
+let lista2 = ['Lista de nomes', nomes];
+let lista3 = ['Lista 3', ['teste1', 'teste2', 'xx', 'yy']];
+
+
+console.log(nomes);
+console.log(lista2);
+console.log(lista3[1][3]);
+
+
+let segundo = lista3[1];
+console.log(segundo[2])
+
+
+
+let number_name = [1 , 2, 3, ['vivian', 'leven', 'juliana']];
+console.log(number_name[3][0]);
+
+
+let list =['1, 2, 3', 'inacreditavel', 10]
+let number = ['name', 'vivian', 'juliana']
+
+console.log(list[2], number[2])
+
+
+let family = ['father','mother','son','brother','sister'];
+console.log(family[4]);
+
+//exemplo meu
+
+let subjects = ['Limite e Derivada de uma variavel', 'Algoritimos e Programação', 'Sociedade em Rede', 'Redes de Computadores', 'Design e interface de usuário', 'Trabalho científico', 'Descanso'];
+
+let dayOfWeek = ['Segunda-Feira', 'Terça-feira', 'Quarta-Feira', 'Quinta-feira', 'Sexta-feira', 'Sábado', 'Domingo']
+
+let monday = subjects[2];
+let tuesday = subjects[0];
+let wednesday = subjects[3];
+let thursday = subjects[4]
+let friday = subjects[1];
+let saturday = subjects[5];
+let sunday = subjects[6];
+
+
+console.log(`${dayOfWeek[0]}: ${monday};`);
+console.log(`${dayOfWeek[1]}: ${tuesday};`);
+console.log(`${dayOfWeek[2]}: ${wednesday};`);
+console.log(`${dayOfWeek[3]}: ${thursday};`);
+console.log(`${dayOfWeek[4]}: ${friday};`);
+console.log(`${dayOfWeek[5]}: ${saturday};`);
+console.log(`${dayOfWeek[6]}: ${sunday};`);
+*/
