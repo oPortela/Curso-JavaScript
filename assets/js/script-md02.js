@@ -228,7 +228,7 @@ console.log(`${dayOfWeek[6]}: ${sunday};`);
 */
 
 
-/* md02 aula14 */
+/* md02 aula14 
 
 let ingredientes = [
     'agua',
@@ -259,3 +259,30 @@ study.push('PHP');
 
 console.log(study);
 console.log(`Total de matérias a se estudar: ${study.length}`)
+*/
+
+
+/* md02 aula 16 
+
+let name = 'Matheus'; // variavel
+let names = ['João', 'Lucas']; // array
+
+let persons = { //objeto
+    nome: 'Matheus',
+    idade: 20,
+    pais: 'Brasil',
+    olhos: ['Preto', 'Azul'],
+    caracteristicas: {
+        forca: 20,
+        magia: 5,
+        stamina: 15
+    }
+};
+
+
+console.log(`${persons.nome} tem ${persons.idade} anos!`);
+console.log(`${persons.caracteristicas.magia}`);
+console.log(persons.olhos[1]);
+*/
+
+/* md02 aula 17 */
