@@ -226,3 +226,36 @@ console.log(`${dayOfWeek[4]}: ${friday};`);
 console.log(`${dayOfWeek[5]}: ${saturday};`);
 console.log(`${dayOfWeek[6]}: ${sunday};`);
 */
+
+
+/* md02 aula14 */
+
+let ingredientes = [
+    'agua',
+    'farinha',
+    'ovo',
+    'corante',
+    'sal',
+];
+
+//ingredientes[5] = 'Cebola';
+ingredientes.push('Cebola'); // Quando quero adicionar alguma coisa no meu arrya, usa-se o push.
+
+ingredientes.shift();//remove o primeiro item do array
+ingredientes.pop();//remove o ultimo item do array
+
+console.log(ingredientes);
+console.log(`Total de ingredientes : ${ingredientes.length}`);
+
+
+let study = [
+    'HTML', 
+];
+
+study.push('CSS3');
+study.push('JavaScript');
+study.push('SQL')
+study.push('PHP');
+
+console.log(study);
+console.log(`Total de matérias a se estudar: ${study.length}`)
