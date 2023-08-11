@@ -285,4 +285,125 @@ console.log(`${persons.caracteristicas.magia}`);
 console.log(persons.olhos[1]);
 */
 
-/* md02 aula 17 */
+/* md02 aula 17 
+
+let persons = { 
+    nome: 'Matheus',
+    idade: 20,
+    pais: 'Brasil',
+    olhos: ['Preto', 'Azul'],
+    caracteristicas: {
+        forca: 20,
+        magia: 5,
+        stamina: 15
+    }
+};
+
+persons.nome = 'Silva';
+persons.olhos.push('verde');
+persons.caracteristicas.forca += 5;
+
+console.log(persons);
+console.log(`Força: ${persons.caracteristicas.forca}`);
+console.log(persons.olhos);
+
+let personagem = {
+    nome: 'Matheus',
+    idade: 20,
+    carros: [
+        {modelo: 'Fiat', cor: 'preto'},
+        {modelo: 'Ferrari', cor: 'vermelho'}
+    ]
+};
+
+console.log(personagem.carros[0].modelo);
+*/
+
+
+/* MD02 AULA 18
+
+let pessoa = {
+    nome: 'Matheus',
+    sobrenome: 'Portela',
+    idade: 20,
+    nomeCompleto: function() {
+        return `${this .nome} ${this.sobrenome}`;
+    }
+}
+
+console.log(pessoa.nome + ' ' + pessoa.sobrenome);
+console.log(pessoa.nomeCompleto());
+
+//exemplo meu
+let favoritos = {
+    user: 'Matheus',
+    apelido: 'oPortela',
+    idade: 20,
+    games: [
+        {
+            game: 'Moratl Kombat',
+            tamanho: 50,
+            censura: '+18'
+        },
+        {
+            game: 'Grand Theft Auto 5',
+            tamanho: 80,
+            censura: '+18'
+        },
+        {
+            game: 'Formula 1 - The video-game',
+            tamanho: 60,
+            censura: 'livre'
+        }
+    ],
+    pc: [
+        processador = 'i5',
+        placa_mae = 'H310',
+        memoria_ram = 8,
+        armazenamento = 500
+    ],
+    preferencias: function() {
+        return `O usuário ${this.apelido} possui ${this.idade} anos de idade, e tem um computador com um processador ${this.pc[0]} que o utiliza para jogar ${this.games[1].game} que possui uma censura de ${this.games[1].censura}.`
+    }
+}
+
+console.log(favoritos.preferencias());
+*/
+
+/* md02 aula19*/
+
+/*for(let n = 0; n <= 15; n++){
+    console.log('Frase ' + n);
+};*/
+
+
+
+
+for(let num = 1; num <=10; num++){
+    console.log(`Tabuada do: ${num}`);
+    for (let n = 0; n <= 10; n++) {
+        calc = num * n
+        console.log(`${num} x ${n} = ${calc}`)
+    }
+}
+
+
+/*
+programa 
+{
+	funcao inicio() 
+	{
+		inteiro numero, resultado, contador
+		
+		escreva("Informe um número para ver sua tabuada: ")
+		leia(numero)
+
+		limpa()
+		
+		para (contador = 1; contador <= 10; contador++) 
+		{
+			resultado = numero * contador 
+			escreva (numero, " X ", contador, " = ", resultado , "\n")
+		}
+	}
+}*/
