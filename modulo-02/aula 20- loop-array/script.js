@@ -31,7 +31,7 @@ console.log('');
 
 for(let cor of cores) {
     console.log(`Nome: ${cor.nome} - ${cor.qt}`);
-}
+};
 
 console.log('');
 
