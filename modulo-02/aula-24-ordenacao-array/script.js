@@ -15,15 +15,20 @@ console.log(fruits);
 let cars = [
     { brand: 'Fiat', year: 2022},
     { brand: 'Bmw', year: 2018},
+    { brand: 'Volkswagen', year: 2004},
     { brand: 'Ferrari', year: 2020},
     { brand: "ford", year: 1969}
 ];
 
-cars.sort((a, b) => {
-    
-});
-
+cars.sort((a, b) => a.year - b.year); //menor para o maior
 console.log(cars);
+
+cars.sort((a, b) => b.year - a.year); //maior para o menor
+console.log(cars);
+
+/*cars.sort((a, b) => {
+    return a.year - b.year;
+});*/
 
 /*if(a.year > b.year) {
         return 1;
