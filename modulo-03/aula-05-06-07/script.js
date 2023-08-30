@@ -20,6 +20,26 @@ function clicou2_0() {
     const teste2 = document.querySelector('#teste2');
     const ul = teste2.querySelector('ul');
 
-    ul.children[0].innerHTML = "Item <strong>Alterado</strong>";
+    const teste3 = document.querySelector('#teste3');
+    const ul1 = teste3.querySelector('ul');
+
+
+    /*
+    ul.children[0].innerHTML = "Item <strong>Alterado</strong>"; //ele adicionará um HTML no lugar.
     ul.children[1].innerHTML = "Item <del>não alterado</del>"
+
+
+    ul1.children[0].innerText = "Item <strong>Alterado</strong>"; //ele adicionará um texto
+    ul1.children[1].innerHTML = "Item <del>não alterado</del>"
+    */
+
+    ul.outerHTML = "<h1>Alterado!-*/</h1>"; //ele vai alterar todo o elemento, igual aqui trocou um UL por um H1...
+
+    console.log(ul.outerHTML);
+};
+
+function clicouBotao() {
+    const botao = document.querySelector('.botao');
+
+    botao.innerHTML = "Você clicou no botão";
 }
